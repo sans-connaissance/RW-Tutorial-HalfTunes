@@ -8,7 +8,7 @@
 
 import Foundation
 
-class SongDownload: NSObject, ObservableObject {
+class SongDownload: NSObject, ObservableObject  {
     
     var downloadTask: URLSessionDownloadTask?
     var downloadURL: URL?
